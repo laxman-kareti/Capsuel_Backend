@@ -1,0 +1,4 @@
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Entities\bin\Debug\TaskManager.Entities.dll
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Entities\bin\Debug\TaskManager.Entities.pdb
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.dll
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Entities\obj\Debug\TaskManager.Entities.pdb

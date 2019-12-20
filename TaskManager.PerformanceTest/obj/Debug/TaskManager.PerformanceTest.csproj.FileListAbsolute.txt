@@ -1,0 +1,4 @@
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\TaskManager.PerformanceTest.dll
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\TaskManager.PerformanceTest.pdb
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\obj\Debug\TaskManager.PerformanceTest.dll
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\obj\Debug\TaskManager.PerformanceTest.pdb
