@@ -24,7 +24,6 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\roslyn\vbc.ex
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\roslyn\vbc.rsp
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\roslyn\VBCSCompiler.exe
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\roslyn\VBCSCompiler.exe.config
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.API.dll.config
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.API.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.API.pdb
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\Antlr3.Runtime.dll
@@ -50,7 +49,6 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.E
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\WebGrease.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.DataLayer.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.BusinessLayer.pdb
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.BusinessLayer.dll.config
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.Entities.pdb
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\Antlr3.Runtime.pdb
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\EntityFramework.xml
@@ -69,7 +67,9 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.We
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\Newtonsoft.Json.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Http.WebHost.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.DataLayer.pdb
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.DataLayer.dll.config
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\obj\Debug\TaskManager.API.csprojResolveAssemblyReference.cache
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\obj\Debug\TaskManager.API.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\obj\Debug\TaskManager.API.pdb
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.API.dll.config
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.BusinessLayer.dll.config
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.DataLayer.dll.config

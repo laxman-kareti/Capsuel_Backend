@@ -16,7 +16,6 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\TaskMa
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\TaskManager.Entities.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\TaskManager.DataLayer.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\TaskManager.BusinessLayer.pdb
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\TaskManager.BusinessLayer.dll.config
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\TaskManager.Entities.pdb
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\EntityFramework.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\EntityFramework.SqlServer.xml
@@ -27,7 +26,8 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\System
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\System.Web.Http.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\System.Web.Http.WebHost.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\TaskManager.DataLayer.pdb
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\TaskManager.DataLayer.dll.config
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\obj\Debug\TaskManager.Test.csprojResolveAssemblyReference.cache
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\obj\Debug\TaskManager.Test.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\obj\Debug\TaskManager.Test.pdb
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\TaskManager.BusinessLayer.dll.config
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Test\bin\Debug\TaskManager.DataLayer.dll.config

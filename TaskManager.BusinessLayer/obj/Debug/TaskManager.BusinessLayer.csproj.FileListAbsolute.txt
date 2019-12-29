@@ -6,7 +6,6 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\bin\Deb
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\bin\Debug\TaskManager.DataLayer.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\bin\Debug\TaskManager.Entities.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\bin\Debug\TaskManager.DataLayer.pdb
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\bin\Debug\TaskManager.DataLayer.dll.config
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\bin\Debug\TaskManager.Entities.pdb
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\bin\Debug\EntityFramework.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
@@ -15,3 +14,4 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\obj\Deb
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\obj\Debug\TaskManager.BusinessLayer.pdb
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\bin\Debug\Newtonsoft.Json.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.BusinessLayer\bin\Debug\TaskManager.DataLayer.dll.config
