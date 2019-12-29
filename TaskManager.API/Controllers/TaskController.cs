@@ -13,10 +13,12 @@ using TaskManager.Entities;
 
 namespace TaskManager.API.Controllers
 {
+
     public class TaskController : ApiController
     {
        private TaskBAO BO = new TaskBAO();
-        
+        [HttpGet]
+        [ActionName("GetAllTasks")]
         public IHttpActionResult GetAllTasks()
 
         {
@@ -34,9 +36,30 @@ namespace TaskManager.API.Controllers
 
 
         }
+        [HttpGet]
+        [ActionName("ParentTask")]
+        public IHttpActionResult GeParentTasks()
+
+        {
+            try
+            {
+                return Ok(BO.GetParentTasks());
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+
+
+        }
 
         // GET 
-   // [Route("api/Task/{id}")]
+        // [Route("api/Task/{id}")]
+        [HttpGet]
+        [ActionName("GetTaskById")]
         public IHttpActionResult GetTaskById(int id)
         {
             TaskEntity  task = BO.GetTaskById(id);
@@ -48,6 +71,8 @@ namespace TaskManager.API.Controllers
         }
         //PUT
         //[Route("api/UpdateTask/{id}")]
+        [HttpPut]
+        [ActionName("UpdateTask")]
         public IHttpActionResult PutTask(int id,[FromBody]TaskEntity task)
         {
             try
@@ -82,13 +107,31 @@ namespace TaskManager.API.Controllers
             
             
         }
-        // DELETE api/CRUD/5  
-        [HttpDelete, Route("api/Task/Delete/{id}")]
-        public IHttpActionResult DeleteTask(int taskId)
+        [HttpPut]
+        [ActionName("EndTask")]
+        public IHttpActionResult EndTask(int id,[FromBody] TaskEntity task)
         {
             try
             {
-                BO.DeleteTask(taskId);
+                BO.EndTask(id,task);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            return StatusCode(HttpStatusCode.NoContent);
+
+
+        }
+        // DELETE api/CRUD/5  
+        //[HttpDelete, Route("api/Task/Delete/{id}")]
+        [ActionName("DeleteTask")]
+        public IHttpActionResult DeleteTask(int Id)
+        {
+            try
+            {
+                BO.DeleteTask(Id);
             }
             catch (Exception)
             {

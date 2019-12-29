@@ -1,4 +1,3 @@
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\obj\Debug\TaskManager.API.csprojResolveAssemblyReference.cache
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\roslyn\csc.exe
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\roslyn\csc.exe.config
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\roslyn\csc.rsp
@@ -35,7 +34,9 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\Microsoft.Cod
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\Microsoft.Web.Infrastructure.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\Newtonsoft.Json.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Net.Http.Formatting.dll
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Cors.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Helpers.dll
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Http.Cors.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Http.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Http.WebHost.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Mvc.dll
@@ -55,7 +56,10 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\Antlr3.Runtim
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\EntityFramework.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\EntityFramework.SqlServer.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Net.Http.Formatting.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Helpers.xml
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Http.xml
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Http.Cors.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Mvc.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Optimization.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Razor.xml
@@ -63,13 +67,9 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.We
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.WebPages.Deployment.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.WebPages.Razor.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\Newtonsoft.Json.xml
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Net.Http.Formatting.xml
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Http.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Http.WebHost.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.DataLayer.pdb
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\TaskManager.DataLayer.dll.config
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\obj\Debug\TaskManager.API.csprojResolveAssemblyReference.cache
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\obj\Debug\TaskManager.API.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\obj\Debug\TaskManager.API.pdb
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Cors.dll
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Http.Cors.dll
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.API\bin\System.Web.Http.Cors.xml

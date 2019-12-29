@@ -1,0 +1,5 @@
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Release\TaskManager.PerformanceTest.dll
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Release\TaskManager.PerformanceTest.pdb
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\obj\Release\TaskManager.PerformanceTest.dll
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\obj\Release\TaskManager.PerformanceTest.pdb
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\obj\Release\TaskManager.PerformanceTest.csprojResolveAssemblyReference.cache

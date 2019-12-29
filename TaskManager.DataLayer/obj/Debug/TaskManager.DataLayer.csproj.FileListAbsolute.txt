@@ -8,7 +8,12 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\bin\Debug\T
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\bin\Debug\EntityFramework.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.csprojResolveAssemblyReference.cache
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.Migrations.Initial.resources
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.Migrations.Initial1.resources
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.csproj.GenerateResource.Cache
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.pdb
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.Migrations.Initial.resources
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.csproj.GenerateResource.Cache
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.Migrations.Initial2.resources
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.Migrations.Initial3.resources
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\bin\Debug\Newtonsoft.Json.dll
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\bin\Debug\Newtonsoft.Json.xml
