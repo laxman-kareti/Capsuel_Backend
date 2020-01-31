@@ -67,6 +67,18 @@
     <Compile Include="Migrations\201912270423348_Initial3.designer.cs">
       <DependentUpon>201912270423348_Initial3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001211333073_UpdatedBModelV1.cs" />
+    <Compile Include="Migrations\202001211333073_UpdatedBModelV1.designer.cs">
+      <DependentUpon>202001211333073_UpdatedBModelV1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001220808381_UpdatedDBModelV2.cs" />
+    <Compile Include="Migrations\202001220808381_UpdatedDBModelV2.designer.cs">
+      <DependentUpon>202001220808381_UpdatedDBModelV2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001301732171_UpdatedDBModelV3.cs" />
+    <Compile Include="Migrations\202001301732171_UpdatedDBModelV3.designer.cs">
+      <DependentUpon>202001301732171_UpdatedDBModelV3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="TaskContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,6 +105,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912270423348_Initial3.resx">
       <DependentUpon>201912270423348_Initial3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001211333073_UpdatedBModelV1.resx">
+      <DependentUpon>202001211333073_UpdatedBModelV1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001220808381_UpdatedDBModelV2.resx">
+      <DependentUpon>202001220808381_UpdatedDBModelV2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001301732171_UpdatedDBModelV3.resx">
+      <DependentUpon>202001301732171_UpdatedDBModelV3.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

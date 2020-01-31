@@ -4,3 +4,4 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Entities\obj\Release\
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Entities\obj\Release\TaskManager.Entities.pdb
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Entities\bin\Release\Newtonsoft.Json.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Entities\bin\Release\Newtonsoft.Json.xml
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.Entities\obj\Release\TaskManager.Entities.csprojResolveAssemblyReference.cache

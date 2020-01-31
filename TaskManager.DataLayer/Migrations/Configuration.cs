@@ -14,12 +14,10 @@
 
         protected override void Seed(TaskManager.DataLayer.TaskContext context)
         {
-            context.Tasks.AddOrUpdate(p => p.TaskId,
-            new Entities.TaskEntity { TaskName = "Task1", Priority = 11, StartDate = DateTime.Parse("2019-12-16") },
-            new Entities.TaskEntity { TaskName = "Task2", Priority = 12, StartDate = DateTime.Parse("2019-12-12") },
-            new Entities.TaskEntity { TaskName = "Task3", Priority = 13, StartDate = DateTime.Parse("2019-12-13") },
-            new Entities.TaskEntity { TaskName = "Task4", Priority = 14, StartDate = DateTime.Parse("2019-12-14") }
-            );
+            //  This method will be called after migrating to the latest version.
+
+            //  You can use the DbSet<T>.AddOrUpdate() helper extension method
+            //  to avoid creating duplicate seed data.
         }
     }
 }

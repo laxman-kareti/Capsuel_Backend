@@ -23,6 +23,14 @@ namespace TaskManager.Entities
         public string TaskName { get; set; }
 
         public int? Priority { get; set; }
+
+        public int ProjectId { get; set; }
+        //   [ForeignKey("ProjectId")]
+        //  public Project Project { get; set; }
+
+        public int UserId { get; set; }
+
+        public string Status { get; set; }
        
         [Column(TypeName ="Date")]
        [JsonConverter (typeof(DateConverter))]

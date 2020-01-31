@@ -13,29 +13,32 @@ namespace TaskManager.BusinessLayer
     public class TaskBAO
     {
 
-        public List<TaskEntity> GetAllTasks()
+        public List<TaskEntity> GetAllTasks(int projectId)
         {
 
             TaskContext tstDb = new TaskContext();
 
-            //var courseInfo = from course in odDataContext.COURSEs
-            //                 join student in odDataContext.STUDENTs
-            //                 on course.course_id equals student.course_id into studentInfo
-            //                 from students in studentInfo.DefaultIfEmpty()
 
             var task = from tsk in tstDb.Tasks
-                         join parenttsk in tstDb.Tasks
-                         on tsk.ParentId equals parenttsk.TaskId into TaskInfo 
-                         from tsks in TaskInfo.DefaultIfEmpty()
-                       select new  { tsk.TaskId,
+                       join parenttsk in tstDb.Tasks
+                       on tsk.ParentId equals parenttsk.TaskId into TaskInfo
+                       from tsks in TaskInfo.DefaultIfEmpty()
+                       where tsk.ProjectId == projectId
+                       select new
+                       {
+                           tsk.TaskId,
                            tsk.TaskName,
                            tsk.Priority,
                            tsk.StartDate,
                            tsk.EndDate,
                            tsk.ParentId,
-                           parentTask = tsks.TaskName  };
+                           tsk.Status,
+                           tsk.UserId,
+                           tsk.ProjectId,
+                           parentTask = tsks.TaskName
+                       };
             List<TaskEntity> tasks = new List<TaskEntity>();
-        
+
             foreach (var item in task)
             {
                 TaskEntity t = new TaskEntity();
@@ -47,10 +50,13 @@ namespace TaskManager.BusinessLayer
                 t.EndDate = item.EndDate;
                 t.ParentId = item.ParentId;
                 t.ParentTask = item.parentTask;
+                t.Status = item.Status;
+                t.ProjectId = item.ProjectId;
+                t.UserId = item.UserId;
                 tasks.Add(t);
             }
 
-        
+
             return tasks;
 
         }
@@ -60,11 +66,10 @@ namespace TaskManager.BusinessLayer
 
             TaskContext tstDb = new TaskContext();
             var parent = from tsk in tstDb.Tasks
-                        where tsk.EndDate == null
-                        select new {tsk.TaskId, tsk.TaskName };
-     
+                         select new { tsk.TaskId, tsk.TaskName };
+
             List<TaskEntity> parenttasks = new List<TaskEntity>();
-           // parenttasks = parent.ToList<TaskEntity>();
+
             foreach (var item in parent)
             {
                 TaskEntity t = new TaskEntity();
@@ -93,6 +98,8 @@ namespace TaskManager.BusinessLayer
                            tsk.StartDate,
                            tsk.EndDate,
                            tsk.ParentId,
+                           tsk.UserId,
+                           tsk.ProjectId,
                            parentTask = tsks.TaskName
                        };
             TaskEntity t = new TaskEntity();
@@ -105,42 +112,49 @@ namespace TaskManager.BusinessLayer
                 t.ParentId = item.ParentId;
                 t.ParentTask = item.parentTask;
                 t.StartDate = item.StartDate;
-                t.EndDate = item.EndDate ;
-                
+                t.EndDate = item.EndDate;
+                t.ProjectId = item.ProjectId;
+                t.UserId = item.UserId;
+
             }
 
             return t;
-            
+
         }
 
         public int AddTask(TaskEntity task)
         {
-                TaskContext tstDb = new TaskContext();
-            
-                TaskEntity t = new TaskEntity();
-                
-                t.TaskName = task.TaskName;
-                t.Priority = task.Priority;
-                t.ParentId = task.ParentId;
-                t.StartDate = task.StartDate;
-                t.EndDate = task.EndDate;
-                 tstDb.Tasks.Add(t);
-                int Retval = tstDb.SaveChanges();
-                return Retval;
-
-        
-
-        }
-
-        public int UpdateTask(int taskId,TaskEntity task)
-        {
             TaskContext tstDb = new TaskContext();
-            TaskEntity t = tstDb.Tasks.Find(taskId);
-            
+
+            TaskEntity t = new TaskEntity();
+
             t.TaskName = task.TaskName;
             t.Priority = task.Priority;
             t.ParentId = task.ParentId;
             t.StartDate = task.StartDate;
+            t.EndDate = task.EndDate;
+            t.UserId = task.UserId;
+            t.ProjectId = task.ProjectId;
+            tstDb.Tasks.Add(t);
+            int Retval = tstDb.SaveChanges();
+            return Retval;
+
+
+
+        }
+
+        public int UpdateTask(int taskId, TaskEntity task)
+        {
+            TaskContext tstDb = new TaskContext();
+            TaskEntity t = tstDb.Tasks.Find(taskId);
+
+            t.TaskName = task.TaskName;
+            t.Priority = task.Priority;
+            t.ParentId = task.ParentId;
+            t.StartDate = task.StartDate;
+            t.EndDate = task.EndDate;
+            t.ProjectId = task.ProjectId;
+            t.UserId = task.UserId; 
 
             tstDb.Entry(t).State = EntityState.Modified;
             int Retval = tstDb.SaveChanges();
@@ -150,11 +164,11 @@ namespace TaskManager.BusinessLayer
         public int EndTask(int taskId, TaskEntity task)
         {
             TaskContext tstDb = new TaskContext();
+            
             TaskEntity t = tstDb.Tasks.Find(taskId);
 
             t.EndDate = DateTime.Now;
-           
-
+            t.Status = "Completed";
             tstDb.Entry(t).State = EntityState.Modified;
             int Retval = tstDb.SaveChanges();
             return Retval;
@@ -163,7 +177,6 @@ namespace TaskManager.BusinessLayer
         {
             TaskContext tstDb = new TaskContext();
             TaskEntity t = tstDb.Tasks.Find(taskId);
-           // tstDb.Entry(t).State = EntityState.Deleted;
             tstDb.Tasks.Remove(t);
             int Retval = tstDb.SaveChanges();
             return Retval;

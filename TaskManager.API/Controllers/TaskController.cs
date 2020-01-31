@@ -19,12 +19,12 @@ namespace TaskManager.API.Controllers
        private TaskBAO BO = new TaskBAO();
         [HttpGet]
         [ActionName("GetAllTasks")]
-        public IHttpActionResult GetAllTasks()
+        public IHttpActionResult GetAllTasks(int id)
 
         {
             try
             {
-               return Ok(BO.GetAllTasks());
+               return Ok(BO.GetAllTasks(id));
 
             }
             catch (Exception)
@@ -57,7 +57,7 @@ namespace TaskManager.API.Controllers
         }
 
         // GET 
-        // [Route("api/Task/{id}")]
+    
         [HttpGet]
         [ActionName("GetTaskById")]
         public IHttpActionResult GetTaskById(int id)
@@ -70,7 +70,7 @@ namespace TaskManager.API.Controllers
             return Ok(task);
         }
         //PUT
-        //[Route("api/UpdateTask/{id}")]
+       
         [HttpPut]
         [ActionName("UpdateTask")]
         public IHttpActionResult PutTask(int id,[FromBody]TaskEntity task)
@@ -90,8 +90,9 @@ namespace TaskManager.API.Controllers
             return StatusCode(HttpStatusCode.NoContent);
 
         }
-        // POST api/CRUD  
-       // [Route("api/AddTask")]
+        // POST  
+        [HttpPost]
+        [ActionName("CreateTask")]
         public IHttpActionResult PostTask([FromBody] TaskEntity task)
         {
             try
@@ -107,6 +108,7 @@ namespace TaskManager.API.Controllers
             
             
         }
+        //End Task
         [HttpPut]
         [ActionName("EndTask")]
         public IHttpActionResult EndTask(int id,[FromBody] TaskEntity task)
@@ -124,8 +126,8 @@ namespace TaskManager.API.Controllers
 
 
         }
-        // DELETE api/CRUD/5  
-        //[HttpDelete, Route("api/Task/Delete/{id}")]
+        // DELETE 
+      
         [ActionName("DeleteTask")]
         public IHttpActionResult DeleteTask(int Id)
         {

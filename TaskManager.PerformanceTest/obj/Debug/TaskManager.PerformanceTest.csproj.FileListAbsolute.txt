@@ -10,13 +10,13 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\D
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\EntityFramework.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\Newtonsoft.Json.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\TaskManager.BusinessLayer.pdb
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\TaskManager.BusinessLayer.dll.config
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\TaskManager.Entities.pdb
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\TaskManager.DataLayer.pdb
-C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\TaskManager.DataLayer.dll.config
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\EntityFramework.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\Newtonsoft.Json.xml
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\obj\Debug\TaskManager.PerformanceTest.csprojResolveAssemblyReference.cache
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\TaskManager.PerformanceTest.dll.config
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\EntityFramework.SqlServer.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\TaskManager.BusinessLayer.dll.config
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.PerformanceTest\bin\Debug\TaskManager.DataLayer.dll.config

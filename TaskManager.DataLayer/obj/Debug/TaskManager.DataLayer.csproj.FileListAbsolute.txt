@@ -17,3 +17,6 @@ C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\T
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.Migrations.Initial3.resources
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\bin\Debug\Newtonsoft.Json.dll
 C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\bin\Debug\Newtonsoft.Json.xml
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.Migrations.UpdatedBModelV1.resources
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.Migrations.UpdatedDBModelV2.resources
+C:\Capsule_231095_Lakshmana_Kareti\TaskManager\TaskManager.DataLayer\obj\Debug\TaskManager.DataLayer.Migrations.UpdatedDBModelV3.resources
